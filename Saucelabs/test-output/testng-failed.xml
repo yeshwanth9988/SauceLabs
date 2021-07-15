@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestNG.Contact">
+        <methods>
+          <include name="user_is_in_homepage"/>
+          <include name="user_click_on_ContactSupport"/>
+          <include name="user_click_on_ContactSales"/>
+          <include name="afterclass"/>
+          <include name="user_click_on_Contact"/>
+          <include name="user_click_on_Our_Team"/>
+          <include name="user_click_on_SauceCommunity"/>
+        </methods>
+      </class> <!-- TestNG.Contact -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
